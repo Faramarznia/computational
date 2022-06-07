@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url("font/Lalezar-Regular.otf");
+}
+* {
+  font-family: "Lalezar";
+  color: rgb(119, 0, 255);
+}
+body {
+  margin: 300px 340px;
+  text-align: center;
+
+}
+h1{
+  border: 20px solid;
+  border-color: #ff0090be;
+  border-radius: 50px;
+}
+h1:hover {
+  color: black;
+  transition: 2s;
+  text-shadow: #ff0090be 3px 3px, rgba(255, 160, 6, 0.737) -3px -3px;
+  font-size: 50px;
+  font-weight: bold;
+  border-color: rgba(255, 160, 6, 0.737) ;
+ 
+}
